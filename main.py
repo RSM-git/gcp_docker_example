@@ -21,6 +21,7 @@ if __name__ == '__main__':
     clf.fit(X_train, y_train)
 
     # Predict the value of the digit on the test subset
+    print("predicting ...")
     predicted = clf.predict(X_test)
 
     print(
